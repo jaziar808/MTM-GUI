@@ -41,13 +41,14 @@ public class ArduinoNano {
     public static final short VIN = 30;
 
     /** Holds the collection of devices connected to the nano */
-    private ArrayList<Device> devices = new ArrayList<>();
+    private ArrayList<Device> deviceList = new ArrayList<>();
 
     /**
      * Creates an arduino nano object
      * @param devices list of devices connected to this arduino nano
      */
     public ArduinoNano(List<Device> devices){
-
+        this.deviceList.addAll(devices);
     }
+
 }
