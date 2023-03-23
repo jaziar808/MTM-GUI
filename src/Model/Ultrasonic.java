@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Ultrasonic implements Device {
 
-    /** list of the pin numbers that this servo motor has been allocated by the arduino */
+    /** list of the pin numbers that this ultrasonic sensor has been allocated by the arduino */
     private HashMap<String, Integer> pinNums;
 
     /**
