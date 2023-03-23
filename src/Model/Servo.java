@@ -1,7 +1,5 @@
 package Model;
 
-import Model.Device;
-
 import java.util.*;
 
 public class Servo implements Device {
